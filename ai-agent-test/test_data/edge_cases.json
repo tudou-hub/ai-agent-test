@@ -1,0 +1,112 @@
+[
+  {
+    "id": "edge_001",
+    "query": "那个春天的花活动",
+    "category": "edge",
+    "intent": "event",
+    "expected_tool": "check_event_date",
+    "expected_answer_keys": ["花舞节", "春季", "24"],
+    "should_answer": true,
+    "difficulty": "hard",
+    "notes": "模糊描述，需推理为花舞节"
+  },
+  {
+    "id": "edge_002",
+    "query": "冬天那个有南瓜的节日",
+    "category": "edge",
+    "intent": "event",
+    "expected_tool": "check_event_date",
+    "expected_answer_keys": ["万灵节", "南瓜", "秋季"],
+    "should_answer": true,
+    "difficulty": "hard",
+    "notes": "模糊描述，需推理为万灵节（注意万灵节是秋季不是冬季）"
+  },
+  {
+    "id": "edge_003",
+    "query": "怎么赚钱快",
+    "category": "edge",
+    "intent": "resource",
+    "expected_tool": "search_knowledge_base",
+    "expected_answer_keys": ["赚钱", "方法"],
+    "should_answer": true,
+    "difficulty": "medium",
+    "notes": "开放式问题，需综合多种方法"
+  },
+  {
+    "id": "edge_004",
+    "query": "第一年春天应该做什么",
+    "category": "edge",
+    "intent": "general",
+    "expected_tool": "search_knowledge_base",
+    "expected_answer_keys": ["春季", "第一年", "建议"],
+    "should_answer": true,
+    "difficulty": "medium",
+    "notes": "开放式规划问题"
+  },
+  {
+    "id": "edge_005",
+    "query": "我想在春天第一周赚5000金币，帮我规划一下",
+    "category": "edge",
+    "intent": "resource",
+    "expected_tool": "calculate_resource",
+    "expected_answer_keys": ["5000", "金币", "春天", "规划"],
+    "should_answer": true,
+    "difficulty": "hard",
+    "notes": "多步任务，需要规划和计算"
+  },
+  {
+    "id": "edge_006",
+    "query": "那个可以跳舞的活动",
+    "category": "edge",
+    "intent": "event",
+    "expected_tool": "check_event_date",
+    "expected_answer_keys": ["花舞节", "舞蹈"],
+    "should_answer": true,
+    "difficulty": "medium",
+    "notes": "模糊描述，需推理"
+  },
+  {
+    "id": "edge_007",
+    "query": "海滩上那个夏天的活动",
+    "category": "edge",
+    "intent": "event",
+    "expected_tool": "check_event_date",
+    "expected_answer_keys": ["夏威夷宴会", "夏季", "海滩"],
+    "should_answer": true,
+    "difficulty": "medium",
+    "notes": "模糊描述，可能是夏威夷宴会或月光水母舞"
+  },
+  {
+    "id": "edge_008",
+    "query": "怎么才能快速提升和村民的好感度",
+    "category": "edge",
+    "intent": "cultivation",
+    "expected_tool": "search_knowledge_base",
+    "expected_answer_keys": ["好感度", "村民", "礼物"],
+    "should_answer": true,
+    "difficulty": "medium",
+    "notes": "开放式问题，需要综合建议"
+  },
+  {
+    "id": "edge_009",
+    "query": "矿洞太深了打不过怎么办",
+    "category": "edge",
+    "intent": "general",
+    "expected_tool": "search_knowledge_base",
+    "expected_answer_keys": ["矿洞", "战斗", "建议"],
+    "should_answer": true,
+    "difficulty": "medium",
+    "notes": "问题解决类"
+  },
+  {
+    "id": "edge_010",
+    "query": "我想完成社区中心，需要收集什么",
+    "category": "edge",
+    "intent": "general",
+    "expected_tool": "search_knowledge_base",
+    "expected_answer_keys": ["社区中心", "收集", "包"],
+    "should_answer": true,
+    "difficulty": "hard",
+    "notes": "大型任务规划"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "id": "intent_001",
+    "query": "怎么快速赚金币？",
+    "category": "intent",
+    "intent": "resource",
+    "expected_tool": "calculate_resource",
+    "expected_answer_keys": ["金币", "赚钱"],
+    "should_answer": true,
+    "difficulty": "easy",
+    "notes": "资源类意图 - 金币获取"
+  },
+  {
+    "id": "intent_002",
+    "query": "木材怎么收集最快？",
+    "category": "intent",
+    "intent": "resource",
+    "expected_tool": "calculate_resource",
+    "expected_answer_keys": ["木材", "收集"],
+    "should_answer": true,
+    "difficulty": "easy",
+    "notes": "资源类意图 - 木材收集"
+  },
+  {
+    "id": "intent_003",
+    "query": "我想种草莓，怎么操作？",
+    "category": "intent",
+    "intent": "cultivation",
+    "expected_tool": "search_knowledge_base",
+    "expected_answer_keys": ["草莓", "种植", "种子"],
+    "should_answer": true,
+    "difficulty": "easy",
+    "notes": "养成类意图 - 种植"
+  },
+  {
+    "id": "intent_004",
+    "query": "怎么升级农具？",
+    "category": "intent",
+    "intent": "cultivation",
+    "expected_tool": "search_knowledge_base",
+    "expected_answer_keys": ["升级", "农具", "矿场"],
+    "should_answer": true,
+    "difficulty": "medium",
+    "notes": "养成类意图 - 升级"
+  },
+  {
+    "id": "intent_005",
+    "query": "复活节有什么奖励可以拿？",
+    "category": "intent",
+    "intent": "event",
+    "expected_tool": "check_event_date",
+    "expected_answer_keys": ["复活节", "奖励", "草莓种子"],
+    "should_answer": true,
+    "difficulty": "easy",
+    "notes": "事件类意图 - 节日奖励"
+  },
+  {
+    "id": "intent_006",
+    "query": "春天有什么节日活动？",
+    "category": "intent",
+    "intent": "event",
+    "expected_tool": "search_knowledge_base",
+    "expected_answer_keys": ["春季", "节日"],
+    "should_answer": true,
+    "difficulty": "medium",
+    "notes": "事件类意图 - 季节活动"
+  },
+  {
+    "id": "intent_007",
+    "query": "斧头怎么用？",
+    "category": "intent",
+    "intent": "tool",
+    "expected_tool": "search_knowledge_base",
+    "expected_answer_keys": ["斧头", "使用"],
+    "should_answer": true,
+    "difficulty": "easy",
+    "notes": "工具类意图 - 工具使用"
+  },
+  {
+    "id": "intent_008",
+    "query": "钓鱼竿怎么获得？",
+    "category": "intent",
+    "intent": "tool",
+    "expected_tool": "search_knowledge_base",
+    "expected_answer_keys": ["钓鱼竿", "获得"],
+    "should_answer": true,
+    "difficulty": "easy",
+    "notes": "工具类意图 - 工具获取"
+  },
+  {
+    "id": "intent_009",
+    "query": "我想养鸡，需要什么？",
+    "category": "intent",
+    "intent": "cultivation",
+    "expected_tool": "search_knowledge_base",
+    "expected_answer_keys": ["鸡", "鸡舍", "养殖"],
+    "should_answer": true,
+    "difficulty": "medium",
+    "notes": "养成类意图 - 养殖"
+  },
+  {
+    "id": "intent_010",
+    "query": "石头不够用了怎么办？",
+    "category": "intent",
+    "intent": "resource",
+    "expected_tool": "calculate_resource",
+    "expected_answer_keys": ["石头", "获取"],
+    "should_answer": true,
+    "difficulty": "easy",
+    "notes": "资源类意图 - 石头获取"
+  }
+]

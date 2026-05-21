@@ -1,0 +1,57 @@
+[
+  {
+    "id": "time_001",
+    "query": "最新版本新增了什么鱼类？",
+    "category": "time_sensitive",
+    "intent": "general",
+    "expected_tool": "search_knowledge_base",
+    "expected_answer_keys": ["版本", "鱼"],
+    "should_answer": true,
+    "difficulty": "medium",
+    "notes": "需要知识库包含版本更新信息"
+  },
+  {
+    "id": "time_002",
+    "query": "1.6版本有什么新内容？",
+    "category": "time_sensitive",
+    "intent": "general",
+    "expected_tool": "search_knowledge_base",
+    "expected_answer_keys": ["1.6", "新内容"],
+    "should_answer": true,
+    "difficulty": "medium",
+    "notes": "版本更新内容查询"
+  },
+  {
+    "id": "time_003",
+    "query": "现在最新的节日活动是什么？",
+    "category": "time_sensitive",
+    "intent": "event",
+    "expected_tool": "search_knowledge_base",
+    "expected_answer_keys": ["节日", "新"],
+    "should_answer": true,
+    "difficulty": "medium",
+    "notes": "需要区分游戏版本新增内容"
+  },
+  {
+    "id": "time_004",
+    "query": "1.5版本新增的姜岛怎么去？",
+    "category": "time_sensitive",
+    "intent": "general",
+    "expected_tool": "search_knowledge_base",
+    "expected_answer_keys": ["姜岛", "1.5", "去"],
+    "should_answer": true,
+    "difficulty": "medium",
+    "notes": "版本特定内容"
+  },
+  {
+    "id": "time_005",
+    "query": "最新版本增加了哪些NPC？",
+    "category": "time_sensitive",
+    "intent": "general",
+    "expected_tool": "search_knowledge_base",
+    "expected_answer_keys": ["NPC", "新"],
+    "should_answer": true,
+    "difficulty": "medium",
+    "notes": "版本更新NPC"
+  }
+]

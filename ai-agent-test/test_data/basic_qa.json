@@ -1,0 +1,112 @@
+[
+  {
+    "id": "basic_001",
+    "query": "复活节是什么时候？",
+    "category": "basic",
+    "intent": "event",
+    "expected_tool": "check_event_date",
+    "expected_answer_keys": ["春季", "13", "广场", "草莓种子"],
+    "should_answer": true,
+    "difficulty": "easy",
+    "notes": "基础节日查询，应准确返回日期和地点"
+  },
+  {
+    "id": "basic_002",
+    "query": "花舞节在哪举行？",
+    "category": "basic",
+    "intent": "event",
+    "expected_tool": "check_event_date",
+    "expected_answer_keys": ["煤矿森林", "24", "春季"],
+    "should_answer": true,
+    "difficulty": "easy",
+    "notes": "测试地点信息检索"
+  },
+  {
+    "id": "basic_003",
+    "query": "怎么种植蓝莓？",
+    "category": "basic",
+    "intent": "cultivation",
+    "expected_tool": "search_knowledge_base",
+    "expected_answer_keys": ["夏季", "种子", "生长", "售价"],
+    "should_answer": true,
+    "difficulty": "easy",
+    "notes": "种植类基础问题"
+  },
+  {
+    "id": "basic_004",
+    "query": "星露谷博览会有什么奖励？",
+    "category": "basic",
+    "intent": "event",
+    "expected_tool": "check_event_date",
+    "expected_answer_keys": ["星星代币", "秋季", "16"],
+    "should_answer": true,
+    "difficulty": "easy",
+    "notes": "奖励信息查询"
+  },
+  {
+    "id": "basic_005",
+    "query": "我想在7天内赚金币，大概能赚多少？",
+    "category": "basic",
+    "intent": "resource",
+    "expected_tool": "calculate_resource",
+    "expected_answer_keys": ["7", "金币", "计算"],
+    "should_answer": true,
+    "difficulty": "medium",
+    "notes": "资源计算类问题，应调用计算工具"
+  },
+  {
+    "id": "basic_006",
+    "query": "万灵节的黄金南瓜怎么获得？",
+    "category": "basic",
+    "intent": "event",
+    "expected_tool": "check_event_date",
+    "expected_answer_keys": ["万灵节", "秋季", "27", "黄金南瓜"],
+    "should_answer": true,
+    "difficulty": "medium",
+    "notes": "节日奖励获取方式"
+  },
+  {
+    "id": "basic_007",
+    "query": "冰雪节有什么活动？",
+    "category": "basic",
+    "intent": "event",
+    "expected_tool": "check_event_date",
+    "expected_answer_keys": ["冬季", "8", "钓鱼"],
+    "should_answer": true,
+    "difficulty": "easy",
+    "notes": "节日活动内容"
+  },
+  {
+    "id": "basic_008",
+    "query": "冬日星盛宴是什么时候？",
+    "category": "basic",
+    "intent": "event",
+    "expected_tool": "check_event_date",
+    "expected_answer_keys": ["冬季", "25", "礼物"],
+    "should_answer": true,
+    "difficulty": "easy",
+    "notes": "节日日期查询"
+  },
+  {
+    "id": "basic_009",
+    "query": "夏威夷宴会在哪天？",
+    "category": "basic",
+    "intent": "event",
+    "expected_tool": "check_event_date",
+    "expected_answer_keys": ["夏季", "11", "海滩"],
+    "should_answer": true,
+    "difficulty": "easy",
+    "notes": "节日日期和地点"
+  },
+  {
+    "id": "basic_010",
+    "query": "月光水母舞有什么特别的？",
+    "category": "basic",
+    "intent": "event",
+    "expected_tool": "check_event_date",
+    "expected_answer_keys": ["夏季", "28", "水母", "海滩"],
+    "should_answer": true,
+    "difficulty": "medium",
+    "notes": "节日特色内容"
+  }
+]

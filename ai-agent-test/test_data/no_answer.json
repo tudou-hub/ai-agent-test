@@ -1,0 +1,112 @@
+[
+  {
+    "id": "no_answer_001",
+    "query": "明天会下雨吗？",
+    "category": "no_answer",
+    "intent": "general",
+    "expected_tool": null,
+    "expected_answer_keys": [],
+    "should_answer": false,
+    "difficulty": "easy",
+    "notes": "超出知识库范围，应拒答或说明无法回答"
+  },
+  {
+    "id": "no_answer_002",
+    "query": "现实世界中星露谷在哪里？",
+    "category": "no_answer",
+    "intent": "general",
+    "expected_tool": null,
+    "expected_answer_keys": [],
+    "should_answer": false,
+    "difficulty": "easy",
+    "notes": "混淆游戏与现实，应澄清"
+  },
+  {
+    "id": "no_answer_003",
+    "query": "游戏里怎么结婚离婚再结婚？",
+    "category": "no_answer",
+    "intent": "general",
+    "expected_tool": "search_knowledge_base",
+    "expected_answer_keys": ["结婚", "离婚"],
+    "should_answer": true,
+    "difficulty": "medium",
+    "notes": "游戏内可以结婚离婚，这个问题有答案"
+  },
+  {
+    "id": "no_answer_004",
+    "query": "今天的股票行情怎么样？",
+    "category": "no_answer",
+    "intent": "general",
+    "expected_tool": null,
+    "expected_answer_keys": [],
+    "should_answer": false,
+    "difficulty": "easy",
+    "notes": "完全无关问题，应拒答"
+  },
+  {
+    "id": "no_answer_005",
+    "query": "怎么在游戏里买彩票？",
+    "category": "no_answer",
+    "intent": "general",
+    "expected_tool": null,
+    "expected_answer_keys": [],
+    "should_answer": false,
+    "difficulty": "medium",
+    "notes": "游戏内没有彩票系统，应说明不存在"
+  },
+  {
+    "id": "no_answer_006",
+    "query": "星露谷物语是哪家公司开发的？",
+    "category": "no_answer",
+    "intent": "general",
+    "expected_tool": "search_knowledge_base",
+    "expected_answer_keys": ["ConcernedApe", "开发"],
+    "should_answer": true,
+    "difficulty": "easy",
+    "notes": "游戏背景知识，可能有答案"
+  },
+  {
+    "id": "no_answer_007",
+    "query": "游戏里怎么坐飞机去其他城市？",
+    "category": "no_answer",
+    "intent": "general",
+    "expected_tool": null,
+    "expected_answer_keys": [],
+    "should_answer": false,
+    "difficulty": "medium",
+    "notes": "游戏机制不存在，应说明"
+  },
+  {
+    "id": "no_answer_008",
+    "query": "怎么在游戏里炒股？",
+    "category": "no_answer",
+    "intent": "general",
+    "expected_tool": null,
+    "expected_answer_keys": [],
+    "should_answer": false,
+    "difficulty": "easy",
+    "notes": "游戏内没有股票系统"
+  },
+  {
+    "id": "no_answer_009",
+    "query": "游戏里的医疗保险怎么买？",
+    "category": "no_answer",
+    "intent": "general",
+    "expected_tool": null,
+    "expected_answer_keys": [],
+    "should_answer": false,
+    "difficulty": "easy",
+    "notes": "游戏内没有医疗保险系统"
+  },
+  {
+    "id": "no_answer_010",
+    "query": "怎么给游戏角色交税？",
+    "category": "no_answer",
+    "intent": "general",
+    "expected_tool": null,
+    "expected_answer_keys": [],
+    "should_answer": false,
+    "difficulty": "easy",
+    "notes": "游戏内没有税收系统"
+  }
+]
